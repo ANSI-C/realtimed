@@ -1,0 +1,7 @@
+#!/bin/bash
+rm ./MANIFEST
+podselect bin/realtimed > README.pod
+perl Makefile.PL 
+make manifest 
+make dist clean
+rm MANIFEST.bak Makefile.old
