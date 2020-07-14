@@ -1,6 +1,6 @@
 #!/bin/bash
 rm ./MANIFEST
-podselect bin/realtimed > README.pod
+#podselect bin/realtimed > README.pod
 perl Makefile.PL 
 make manifest 
 make dist clean
