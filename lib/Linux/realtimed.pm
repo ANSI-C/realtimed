@@ -1,3 +1,5 @@
+package realtimed;
+
 =pod
 
 =encoding utf8
@@ -71,3 +73,6 @@ This daemon is free software and is distributed under same terms as Perl itself.
 
 Copyright 2010-2038 by Anselmo Canfora.
 
+=cut
+
+1;
