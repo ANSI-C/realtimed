@@ -1,6 +1,6 @@
-package realtimed;
+package Linux::realtimed;
 
-our $VERSION = '0.98_3';
+our $VERSION = '0.98_4';
 
 =pod
 
