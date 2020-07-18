@@ -6,7 +6,7 @@ WriteMakefile(
     AUTHOR            	=> 'Anselmo Canfora <acanfora@cpan.org>',
 	LICENSE				=> 'perl_5',
 	MIN_PERL_VERSION	=> 5.016,
-    VERSION_FROM      	=> 'bin/realtimed', # finds $VERSION, requires EU::MM from perl >= 5.5
+    VERSION_FROM      	=> 'lib/Linux/realtimed.pm', # finds $VERSION, requires EU::MM from perl >= 5.5
     ABSTRACT_FROM     	=> 'lib/Linux/realtimed.pm', # retrieve abstract from module
 	EXE_FILES			=> [
 		'bin/realtimed'

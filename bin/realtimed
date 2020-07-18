@@ -12,8 +12,6 @@ use JSON;
 use v5.10;
 use EV;
 
-our $VERSION = '0.98_2';
-
 BEGIN {
 	sub lg ($;$$) {
 		my ($message, $activity, $priority) = @_;

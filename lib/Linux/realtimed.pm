@@ -1,5 +1,7 @@
 package realtimed;
 
+our $VERSION = '0.98_3';
+
 =pod
 
 =encoding utf8
